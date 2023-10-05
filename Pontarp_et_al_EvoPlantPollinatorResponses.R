@@ -457,10 +457,10 @@ pop_new_ess<-pop
 delta_disturb <- pop_disturb - pop_ess
 delta_ess <- pop_new_ess - pop_ess
 
-barplot(delta_disturb,names.arg = c("R1","R2","B1","B2"),horizontal=T)
+barplot(delta_disturb,names.arg = c("R1","R2","B1","B2"),horiz=F)
 title(main = "population change with disturbance",sub = "My subtitle")
 
-barplot(delta_ess,names.arg = c("R1","R2","B1","B2"),horizontal=T)
+barplot(delta_ess,names.arg = c("R1","R2","B1","B2"),horiz=F)
 title(main = "population change at new ESS",sub = "My subtitle")
 
 
